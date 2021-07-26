@@ -24,5 +24,5 @@ const router = async () => {
 /**observa mudanças na hash*/
 window.addEventListener('hashchange', router);
 
-/**oberva carregamento da pagina */
+/**observa carregamento da pagina */
 window.addEventListener('load', router);
